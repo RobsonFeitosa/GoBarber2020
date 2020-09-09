@@ -1,0 +1,114 @@
+[33mcommit bd90b48b1648e10911fc791192f29158b1943dbb[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Robson_Feitosa <robson.gw@hotmail.com>
+Date:   Wed Sep 9 03:09:07 2020 -0300
+
+    Dell Server32
+
+[1mdiff --git a/servidor/.editorconfig b/server/.editorconfig[m
+[1msimilarity index 100%[m
+[1mrename from servidor/.editorconfig[m
+[1mrename to server/.editorconfig[m
+[1mdiff --git a/servidor/.env b/server/.env[m
+[1msimilarity index 100%[m
+[1mrename from servidor/.env[m
+[1mrename to server/.env[m
+[1mdiff --git a/servidor/.env.example b/server/.env.example[m
+[1msimilarity index 100%[m
+[1mrename from servidor/.env.example[m
+[1mrename to server/.env.example[m
+[1mdiff --git a/servidor/.eslintignore b/server/.eslintignore[m
+[1msimilarity index 100%[m
+[1mrename from servidor/.eslintignore[m
+[1mrename to server/.eslintignore[m
+[1mdiff --git a/servidor/.eslintrc.json b/server/.eslintrc.json[m
+[1msimilarity index 100%[m
+[1mrename from servidor/.eslintrc.json[m
+[1mrename to server/.eslintrc.json[m
+[1mdiff --git a/servidor/.gitignore b/server/.gitignore[m
+[1msimilarity index 100%[m
+[1mrename from servidor/.gitignore[m
+[1mrename to server/.gitignore[m
+[1mdiff --git a/servidor/babel.config.js b/server/babel.config.js[m
+[1msimilarity index 100%[m
+[1mrename from servidor/babel.config.js[m
+[1mrename to server/babel.config.js[m
+[1mdiff --git a/servidor/coverage/coverage-summary.json b/server/coverage/coverage-summary.json[m
+[1msimilarity index 100%[m
+[1mrename from servidor/coverage/coverage-summary.json[m
+[1mrename to server/coverage/coverage-summary.json[m
+[1mdiff --git a/servidor/coverage/lcov-report/appointments/services/CreateAppointmentService.ts.html b/server/coverage/lcov-report/appointments/services/CreateAppointmentService.ts.html[m
+[1msimilarity index 100%[m
+[1mrename from servidor/coverage/lcov-report/appointments/services/CreateAppointmentService.ts.html[m
+[1mrename to server/coverage/lcov-report/appointments/services/CreateAppointmentService.ts.html[m
+[1mdiff --git a/servidor/coverage/lcov-report/appointments/services/ListProviderAppointmentsService.ts.html b/server/coverage/lcov-report/appointments/services/ListProviderAppointmentsService.ts.html[m
+[1msimilarity index 100%[m
+[1mrename from servidor/coverage/lcov-report/appointments/services/ListProviderAppointmentsService.ts.html[m
+[1mrename to server/coverage/lcov-report/appointments/services/ListProviderAppointmentsService.ts.html[m
+[1mdiff --git a/servidor/coverage/lcov-report/appointments/services/ListProviderDayAvailabilityService.ts.html b/server/coverage/lcov-report/appointments/services/ListProviderDayAvailabilityService.ts.html[m
+[1msimilarity index 100%[m
+[1mrename from servidor/coverage/lcov-report/appointments/services/ListProviderDayAvailabilityService.ts.html[m
+[1mrename to server/coverage/lcov-report/appointments/services/ListProviderDayAvailabilityService.ts.html[m
+[1mdiff --git a/servidor/coverage/lcov-report/appointments/services/ListProviderMonthAvailabilityService.ts.html b/server/coverage/lcov-report/appointments/services/ListProviderMonthAvailabilityService.ts.html[m
+[1msimilarity index 100%[m
+[1mrename from servidor/coverage/lcov-report/appointments/services/ListProviderMonthAvailabilityService.ts.html[m
+[1mrename to server/coverage/lcov-report/appointments/services/ListProviderMonthAvailabilityService.ts.html[m
+[1mdiff --git a/servidor/coverage/lcov-report/appointments/services/ListProvidersService.ts.html b/server/coverage/lcov-report/appointments/services/ListProvidersService.ts.html[m
+[1msimilarity index 100%[m
+[1mrename from servidor/coverage/lcov-report/appointments/services/ListProvidersService.ts.html[m
+[1mrename to server/coverage/lcov-report/appointments/services/ListProvidersService.ts.html[m
+[1mdiff --git a/servidor/coverage/lcov-report/appointments/services/index.html b/server/coverage/lcov-report/appointments/services/index.html[m
+[1msimilarity index 100%[m
+[1mrename from servidor/coverage/lcov-report/appointments/services/index.html[m
+[1mrename to server/coverage/lcov-report/appointments/services/index.html[m
+[1mdiff --git a/servidor/coverage/lcov-report/base.css b/server/coverage/lcov-report/base.css[m
+[1msimilarity index 100%[m
+[1mrename from servidor/coverage/lcov-report/base.css[m
+[1mrename to server/coverage/lcov-report/base.css[m
+[1mdiff --git a/servidor/coverage/lcov-report/block-navigation.js b/server/coverage/lcov-report/block-navigation.js[m
+[1msimilarity index 100%[m
+[1mrename from servidor/coverage/lcov-report/block-navigation.js[m
+[1mrename to server/coverage/lcov-report/block-navigation.js[m
+[1mdiff --git a/servidor/coverage/lcov-report/favicon.png b/server/coverage/lcov-report/favicon.png[m
+[1msimilarity index 100%[m
+[1mrename from servidor/coverage/lcov-report/favicon.png[m
+[1mrename to server/coverage/lcov-report/favicon.png[m
+[1mdiff --git a/servidor/coverage/lcov-report/index.html b/server/coverage/lcov-report/index.html[m
+[1msimilarity index 100%[m
+[1mrename from servidor/coverage/lcov-report/index.html[m
+[1mrename to server/coverage/lcov-report/index.html[m
+[1mdiff --git a/servidor/coverage/lcov-report/prettify.css b/server/coverage/lcov-report/prettify.css[m
+[1msimilarity index 100%[m
+[1mrename from servidor/coverage/lcov-report/prettify.css[m
+[1mrename to server/coverage/lcov-report/prettify.css[m
+[1mdiff --git a/servidor/coverage/lcov-report/prettify.js b/server/coverage/lcov-report/prettify.js[m
+[1msimilarity index 100%[m
+[1mrename from servidor/coverage/lcov-report/prettify.js[m
+[1mrename to server/coverage/lcov-report/prettify.js[m
+[1mdiff --git a/servidor/coverage/lcov-report/sort-arrow-sprite.png b/server/coverage/lcov-report/sort-arrow-sprite.png[m
+[1msimilarity index 100%[m
+[1mrename from servidor/coverage/lcov-report/sort-arrow-sprite.png[m
+[1mrename to server/coverage/lcov-report/sort-arrow-sprite.png[m
+[1mdiff --git a/servidor/coverage/lcov-report/sorter.js b/server/coverage/lcov-report/sorter.js[m
+[1msimilarity index 100%[m
+[1mrename from servidor/coverage/lcov-report/sorter.js[m
+[1mrename to server/coverage/lcov-report/sorter.js[m
+[1mdiff --git a/servidor/coverage/lcov-report/users/services/AuthenticateUserService.ts.html b/server/coverage/lcov-report/users/services/AuthenticateUserService.ts.html[m
+[1msimilarity index 100%[m
+[1mrename from servidor/coverage/lcov-report/users/services/AuthenticateUserService.ts.html[m
+[1mrename to server/coverage/lcov-report/users/services/AuthenticateUserService.ts.html[m
+[1mdiff --git a/servidor/coverage/lcov-report/users/services/CreateUserService.ts.html b/server/coverage/lcov-report/users/services/CreateUserService.ts.html[m
+[1msimilarity index 100%[m
+[1mrename from servidor/coverage/lcov-report/users/services/CreateUserService.ts.html[m
+[1mrename to server/coverage/lcov-report/users/services/CreateUserService.ts.html[m
+[1mdiff --git a/servidor/coverage/lcov-report/users/services/ResetPasswordService.ts.html b/server/coverage/lcov-report/users/services/ResetPasswordService.ts.html[m
+[1msimilarity index 100%[m
+[1mrename from servidor/coverage/lcov-report/users/services/ResetPasswordService.ts.html[m
+[1mrename to server/coverage/lcov-report/users/services/ResetPasswordService.ts.html[m
+[1mdiff --git a/servidor/coverage/lcov-report/users/services/SendForgotPasswordEmailService.ts.html b/server/coverage/lcov-report/users/services/SendForgotPasswordEmailService.ts.html[m
+[1msimilarity index 100%[m
+[1mrename from servidor/coverage/lcov-report/users/services/SendForgotPasswordEmailService.ts.html[m
+[1mrename to server/coverage/lcov-report/users/services/SendForgotPasswordEmailService.ts.html[m
+[1mdiff --git a/servidor/coverage/lcov-report/users/services/ShowProfileService.ts.html b/server/coverage/lcov-report/users/services/ShowProfileService.ts.html[m
+[1msimilarity index 100%[m
+[1mrename from servidor/coverage/lcov-report/users/services/ShowProfileService.ts.html[m
+[1mrename to server/coverage/lcov-report/users/services/ShowProfil
